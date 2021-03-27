@@ -64,7 +64,7 @@ sudo apt-get install sbt
 
 Build and install varilator.
 ```
-sudo apt-get install git make autoconf g++ flex bison
+sudo apt-get install git make autoconf g++ flex bison libfl-dev
 git clone http://git.veripool.org/git/verilator
 cd verilator
 git checkout -b verilator_3_922
